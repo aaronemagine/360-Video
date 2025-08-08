@@ -1,0 +1,7 @@
+Assets/StreamingAssets/test.mp4
+Library/PackageCache/com.meta.xr.sdk.core@8e7305f79034/Plugins/MacOpenXR/OVRPlugin.dylib
+Library/PackageCache/com.unity.xr.openxr@05fb1a7d75d1/Runtime/osx/UnityOpenXR.dylib
+Library/PackageCache/com.unity.xr.openxr@05fb1a7d75d1/Runtime/MockRuntime/osx/mock_api.dylib
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-10.dylib
+Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/liblz4Plastic.dylib
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.dylib
