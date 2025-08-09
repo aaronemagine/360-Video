@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/aaronjay/Documents/emagine/development/Movie Player/Packages/manifest.json
+    m_FilePath: /Users/aaronjay/Documents/emagine/development/360-Video-/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 638902622090000000
     m_Hash: 1807617019
   m_LockFileStatus:
-    m_FilePath: /Users/aaronjay/Documents/emagine/development/Movie Player/Packages/packages-lock.json
+    m_FilePath: /Users/aaronjay/Documents/emagine/development/360-Video-/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Packages
+m_ProjectPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Packages
 m_EditorVersion: 6000.1.15f1 (faa32412f6c9)
 m_ResolvedPackages:
 - packageId: com.meta.xr.sdk.all@77.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.all@e84f20c561b6
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.all@e84f20c561b6
   assetPath: Packages/com.meta.xr.sdk.all
   name: com.meta.xr.sdk.all
   displayName: Meta XR All-in-One SDK
@@ -191,7 +191,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.8
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.ai.navigation@eb5635ad590d
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.ai.navigation@eb5635ad590d
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -304,7 +304,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.8.2
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -467,7 +467,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.36
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.ide.rider@4d374c7eb6db
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -585,7 +585,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.ide.visualstudio@198cdf337d13
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -691,7 +691,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.inputsystem@7fe8299111a7
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -844,7 +844,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -934,7 +934,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.1.0
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.render-pipelines.universal@5251a026f8b9
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.render-pipelines.universal@5251a026f8b9
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -1096,7 +1096,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.test-framework@78fc86e3183e
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.test-framework@78fc86e3183e
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1234,7 +1234,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.7
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.timeline@c58b4ee65782
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.timeline@c58b4ee65782
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1422,7 +1422,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.ugui@1a71b488df3e
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.ugui@1a71b488df3e
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1517,7 +1517,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.7
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.visualscripting@6279e2b7c485
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1640,7 +1640,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.15.1
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.xr.openxr@05fb1a7d75d1
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.xr.openxr@05fb1a7d75d1
   assetPath: Packages/com.unity.xr.openxr
   name: com.unity.xr.openxr
   displayName: OpenXR Plugin
@@ -4214,7 +4214,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.2
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.xr.core-utils@5b282bc7378d
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4335,7 +4335,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.5.1
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.xr.management@20be87dea580
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.xr.management@20be87dea580
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -4494,7 +4494,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.1.12
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -4612,7 +4612,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.ext.nunit@031a54704bff
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4691,7 +4691,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.1.0
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.render-pipelines.core@943f3af6fe14
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.render-pipelines.core@943f3af6fe14
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -4905,7 +4905,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.1.0
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.shadergraph@8d13f365c663
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.shadergraph@8d13f365c663
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5108,7 +5108,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -5206,7 +5206,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.core@8e7305f79034
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.core@8e7305f79034
   assetPath: Packages/com.meta.xr.sdk.core
   name: com.meta.xr.sdk.core
   displayName: Meta XR Core SDK
@@ -5321,7 +5321,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.audio@d6c880704c3e
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.audio@d6c880704c3e
   assetPath: Packages/com.meta.xr.sdk.audio
   name: com.meta.xr.sdk.audio
   displayName: Meta XR Audio SDK
@@ -5425,7 +5425,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.voice@161911ae2ad0
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.voice@161911ae2ad0
   assetPath: Packages/com.meta.xr.sdk.voice
   name: com.meta.xr.sdk.voice
   displayName: Meta - Voice SDK - Immersive Voice Commands
@@ -5521,7 +5521,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.simulator@a79e420152df
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.simulator@a79e420152df
   assetPath: Packages/com.meta.xr.simulator
   name: com.meta.xr.simulator
   displayName: Meta XR Simulator
@@ -5618,7 +5618,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.haptics@06417aacaad6
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.haptics@06417aacaad6
   assetPath: Packages/com.meta.xr.sdk.haptics
   name: com.meta.xr.sdk.haptics
   displayName: Meta XR Haptics SDK
@@ -5733,7 +5733,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.mrutilitykit@928cc60c2a92
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.mrutilitykit@928cc60c2a92
   assetPath: Packages/com.meta.xr.mrutilitykit
   name: com.meta.xr.mrutilitykit
   displayName: Meta MR Utility Kit
@@ -5863,7 +5863,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.platform@0924298733ef
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.platform@0924298733ef
   assetPath: Packages/com.meta.xr.sdk.platform
   name: com.meta.xr.sdk.platform
   displayName: Meta XR Platform SDK
@@ -5977,7 +5977,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.interaction@e52ba4dfd787
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.interaction@e52ba4dfd787
   assetPath: Packages/com.meta.xr.sdk.interaction
   name: com.meta.xr.sdk.interaction
   displayName: Meta XR Interaction SDK Essentials
@@ -6106,7 +6106,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 77.0.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a46d753e5e80
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.meta.xr.sdk.interaction.ovr@a46d753e5e80
   assetPath: Packages/com.meta.xr.sdk.interaction.ovr
   name: com.meta.xr.sdk.interaction.ovr
   displayName: "Meta XR Interaction \u200BSDK"
@@ -6243,7 +6243,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.3
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.searcher@1e17ce91558d
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.searcher@1e17ce91558d
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -6330,7 +6330,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.8.23
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.burst@6aff1dd08a0c
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.burst@6aff1dd08a0c
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -6551,7 +6551,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.3.2
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.mathematics@8017b507cc74
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.mathematics@8017b507cc74
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -6640,7 +6640,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.5.1
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.collections@56bff8827a7e
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.collections@56bff8827a7e
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -6819,7 +6819,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.rendering.light-transport@e647573c7d2a
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.rendering.light-transport@e647573c7d2a
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -6915,7 +6915,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 5.0.0
   source: 2
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.textmeshpro@53f43edfd2e0
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.textmeshpro@53f43edfd2e0
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -7089,7 +7089,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.1
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -7145,7 +7145,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638186318800000000
   documentationUrl: 
@@ -7180,7 +7180,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.11.4
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -7262,7 +7262,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.1.0
   source: 1
-  resolvedPath: /Users/aaronjay/Documents/emagine/development/Movie Player/Library/PackageCache/com.unity.test-framework.performance@92d1d09a72ed
+  resolvedPath: /Users/aaronjay/Documents/emagine/development/360-Video-/Library/PackageCache/com.unity.test-framework.performance@92d1d09a72ed
   assetPath: Packages/com.unity.test-framework.performance
   name: com.unity.test-framework.performance
   displayName: Performance testing API

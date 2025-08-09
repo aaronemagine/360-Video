@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F9B8E350-6CAE-2B27-EDEE-3DBFBA8697A4}</ProjectGuid>
+    <ProjectGuid>{E8E4E265-5DB5-35EC-878A-98FFE62B17E8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -20,7 +20,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <NoWarn>0169;USG0001</NoWarn>
-    <DefineConstants>UNITY_6000_1_15;UNITY_6000_1;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_HAS_CUSTOM_MUTEX;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;ISDK_OPENXR_HAND;AVPRO_VIDEO;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_6000_1_15;UNITY_6000_1;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_OSX;PLATFORM_STANDALONE;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_HAS_CUSTOM_MUTEX;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;ISDK_OPENXR_HAND;AVPRO_VIDEO;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -76,6 +76,7 @@
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/SceneManager_helper.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Networking/NetworkAction/NetworkActionDemo.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Tools/FMCoreTools.cs" />
+    <Compile Include="Assets/Scripts/Util/CameraSphereDiagnostics.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/LargeFileDecoder.cs" />
     <Compile Include="Assets/Scripts/Util/CrashLogger.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/GameViewEncoder.cs" />
@@ -84,8 +85,8 @@
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/WebSocket/FMWebSocketManager.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/MicEncoder.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/TouchDecoder.cs" />
-    <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/Interactive/WorldSpaceButton/OffScreenTrigger.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/AudioEncoder.cs" />
+    <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/Interactive/WorldSpaceButton/OffScreenTrigger.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/FMWebSocketNetwork_debug.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/WebSocket/FMWebSocket.cs" />
     <Compile Include="Assets/Scripts/Net/FMETPNetworkClient.cs" />
@@ -103,8 +104,8 @@
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/AudioDecoder.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Networking/NetworkDiscovery.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/Demo/FMNetwork_Demo.cs" />
-    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" />
+    <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_Packet/SocketPacketType.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/FMPCStreamEncoder.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/LargeFileEncoder.cs" />
@@ -658,6 +659,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="FMTurbojpegWrapper">
+      <HintPath>Assets/FMETP_STREAM/FMCore/Plugins/FMTurboJpeg/FMTurboJpegWrapper/FMTurbojpegWrapper.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -670,24 +675,20 @@
       <HintPath>Library/PackageCache/com.unity.visualscripting@6279e2b7c485/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
+    <Reference Include="FMSharpZip">
+      <HintPath>Assets/FMETP_STREAM/FMCore/Plugins/FMZip/FMSharpZip.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="websocket-sharp">
       <HintPath>Assets/FMETP_STREAM/FMWebSocket/Plugins/WebsocketSharp/websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="FMSharpZip">
-      <HintPath>Assets/FMETP_STREAM/FMCore/Plugins/FMZip/FMSharpZip.dll</HintPath>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0/Runtime/Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="FMTurbojpegWrapper">
-      <HintPath>Assets/FMETP_STREAM/FMCore/Plugins/FMTurboJpeg/FMTurboJpegWrapper/FMTurbojpegWrapper.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="FMDesktopWrapper">
@@ -1762,12 +1763,12 @@
       <HintPath>Library/ScriptAssemblies/AssistantCoreSDKRuntime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Meta.Voice.NLayer">
-      <HintPath>Library/ScriptAssemblies/Meta.Voice.NLayer.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="VoiceSDK.Dictation.Editor">
       <HintPath>Library/ScriptAssemblies/VoiceSDK.Dictation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Voice.NLayer">
+      <HintPath>Library/ScriptAssemblies/Meta.Voice.NLayer.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
@@ -1781,43 +1782,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CCE1CF97-ECD2-CDD3-5CA6-2946427C738E}</Project>
+      <Project>{54BC8D7A-38F0-BFB5-F2A1-FA0DFD773DBC}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Demos.csproj">
-      <Project>{E248D235-4B76-A13A-BDF1-EA026CF3175B}</Project>
+      <Project>{12E739C0-9115-7060-842F-5BBA687A0C26}</Project>
       <Name>AVProVideo.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.UnityUI.csproj">
-      <Project>{3E10AFDC-755D-3BFE-B01D-AAA5F9CE715E}</Project>
+      <Project>{265D0FEC-9BAF-9FF2-212A-C584E392B898}</Project>
       <Name>AVProVideo.Extensions.UnityUI</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.VisualEffectGraph.csproj">
-      <Project>{799E923A-BB2A-1940-3588-832F06E2BB3E}</Project>
+      <Project>{532E7329-99C6-1F12-4F0B-BB2AF9B5510E}</Project>
       <Name>AVProVideo.Extensions.VisualEffectGraph</Name>
     </ProjectReference>
     <ProjectReference Include="_AVProVideo.Extensions.VideoPlayer.Editor.csproj">
-      <Project>{8D22A7D5-5638-BF31-7BFF-76118618D1C7}</Project>
+      <Project>{76FFFACA-FB8E-E55A-8EE2-4A1A3E949A58}</Project>
       <Name>_AVProVideo.Extensions.VideoPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="_AVProVideo.Extensions.VideoPlayer.csproj">
-      <Project>{862F869F-9F7A-6DFE-6FFF-723E2D618C0F}</Project>
+      <Project>{E1D753BD-2C12-578B-36AD-37DB622E5652}</Project>
       <Name>_AVProVideo.Extensions.VideoPlayer</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.Timeline.csproj">
-      <Project>{994262FC-65DA-6EDE-B673-A8961DE55B54}</Project>
+      <Project>{BAA52CD4-FF25-FD0C-A66E-769B7A27D3EE}</Project>
       <Name>AVProVideo.Extensions.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Extensions.UnityUI.Editor.csproj">
-      <Project>{683E92B0-59ED-5605-AC71-6AD3E910B9B4}</Project>
+      <Project>{1F38821B-E2A8-11C6-5036-840C0AF6D931}</Project>
       <Name>AVProVideo.Extensions.UnityUI.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Runtime.csproj">
-      <Project>{4CA6532D-038A-2B27-693F-33C51F0A72B8}</Project>
+      <Project>{2BCAA4C9-099C-BC31-204E-4F6FF25AE3C3}</Project>
       <Name>AVProVideo.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="AVProVideo.Editor.csproj">
-      <Project>{DBAB994E-E0DB-9C3F-1858-B67611E822AE}</Project>
+      <Project>{D0AE9F32-B0F0-6E49-4499-C80B08DAA731}</Project>
       <Name>AVProVideo.Editor</Name>
     </ProjectReference>
   </ItemGroup>
