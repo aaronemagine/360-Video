@@ -599,6 +599,7 @@
 "Assets/FMETP_STREAM/FMWebSocket/Scripts/WebSocket/FMWebSocketWebGL.cs"
 "Assets/Scripts/Core/PlayerApp.cs"
 "Assets/Scripts/Core/PlayNowTest.cs"
+"Assets/Scripts/Net/FMETPCommandBridge.cs"
 "Assets/Scripts/Net/FMETPNetworkClient.cs"
 "Assets/Scripts/Net/INetworkClient.cs"
 "Assets/Scripts/Protocol/Messages.cs"
@@ -606,6 +607,7 @@
 "Assets/Scripts/Util/CameraSphereDiagnostics.cs"
 "Assets/Scripts/Util/CrashLogger.cs"
 "Assets/Scripts/Video/AVPro360PlayerController.cs"
+"Assets/Scripts/Video/AVProNetworkPlayer.cs"
 "Assets/Scripts/Video/VideoPlayerController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0

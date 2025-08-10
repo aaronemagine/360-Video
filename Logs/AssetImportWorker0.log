@@ -7,7 +7,7 @@ Darwin version:          24.5.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        8192 MB
-Date:                    2025-08-09T07:50:43Z
+Date:                    2025-08-10T10:54:37Z
 Using pre-set license
 Pro License: YES
 
@@ -23,7 +23,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52532
+53941
 -job-worker-count
 3
 -background-job-worker-count
@@ -70,7 +70,7 @@ Successfully changed project path to: /Users/aaronjay/Documents/emagine/developm
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8739577600]  Target information:
 
-Player connection [8739577600]  * "[IP] 192.168.68.108 [Port] 0 [Flags] 2 [Guid] 2382852548 [EditorId] 2382852548 [Version] 1048832 [Id] OSXEditor(0,Aarons-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8739577600]  * "[IP] 192.168.68.108 [Port] 0 [Flags] 2 [Guid] 2121681333 [EditorId] 2121681333 [Version] 1048832 [Id] OSXEditor(0,Aarons-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8739577600] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8739577600] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -85,8 +85,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 101.11 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 8.88 ms.
+Refreshing native plugins compatible for Editor in 74.61 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 6.62 ms.
 Initialize engine version: 6000.1.15f1 (faa32412f6c9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/aaronjay/Documents/emagine/development/360-Video-/Assets
@@ -102,46 +102,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56009
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.1.15f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.001786 seconds.
-- Loaded All Assemblies, in  0.400 seconds
+Registered in 0.001814 seconds.
+- Loaded All Assemblies, in  0.378 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 89 ms
+Android Extension - Scanning For ADB Devices 283 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.453 seconds
-Domain Reload Profiling: 853ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.663 seconds
+Domain Reload Profiling: 1041ms
+	BeginReloadAssembly (116ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (161ms)
-		LoadAssemblies (144ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (116ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (148ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (453ms)
+	FinalizeReload (664ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
+		SetupLoadedEditorAssemblies (611ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (165ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			InitializePlatformSupportModulesInManaged (395ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -151,13 +151,13 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.961 seconds
+- Loaded All Assemblies, in  1.282 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 22.78 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 26.87 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -167,12 +167,11 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 6.53 ms, found 18 plugins.
-09/08 08:50:47.998 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
-09/08 08:50:47.998 {DEBUG}   [AnalyticsLifeTime] Post-migration initialization finished.
+Refreshing native plugins compatible for Editor in 6.02 ms, found 18 plugins.
+10/08 11:54:42.666 {DEBUG}   [AnalyticsLifeTime] Pre initialization finished.
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29    0    29    0     0    150      0 --:--:-- --:--:-- --:--:--   150100    29    0    29    0     0    150      0 --:--:-- --:--:-- --:--:--   150
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    29    0    29    0     0    197      0 --:--:-- --:--:-- --:--:--   198
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -183,35 +182,35 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.317 seconds
-Domain Reload Profiling: 2279ms
+- Finished resetting the current domain, in  1.189 seconds
+Domain Reload Profiling: 2459ms
 	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (761ms)
-		LoadAssemblies (438ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (1040ms)
+		LoadAssemblies (732ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (373ms)
-			TypeCache.Refresh (287ms)
-				TypeCache.ScanAssembly (247ms)
-			BuildScriptInfoCaches (63ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1317ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (268ms)
+				TypeCache.ScanAssembly (224ms)
+			BuildScriptInfoCaches (64ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1189ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1124ms)
+		SetupLoadedEditorAssemblies (997ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (810ms)
-			ProcessInitializeOnLoadMethodAttributes (167ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -258,158 +257,46 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 [OVRPlugin][INFO] UnityPluginLoad called
 Launching external process: /Applications/Unity/Hub/Editor/6000.1.15f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 12.15 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.81 ms.
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9315 unused Assets / (12.3 MB). Loaded Objects now: 9999.
-Memory consumption went from 176.6 MB to 164.2 MB.
-Total: 78.750958 ms (FindLiveObjects: 13.702250 ms CreateObjectMapping: 3.414292 ms MarkObjects: 46.728292 ms  DeleteObjects: 14.899333 ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.32 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9288 unused Assets / (7.5 MB). Loaded Objects now: 10033.
+Memory consumption went from 170.8 MB to 163.4 MB.
+Total: 51.843917 ms (FindLiveObjects: 9.948959 ms CreateObjectMapping: 0.903416 ms MarkObjects: 34.607584 ms  DeleteObjects: 6.383167 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 532726.320971 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Props/Materials/LocomotionCoffeeTable1Mat.mat
-  artifactKey: Guid(33f1ed22388d3164cbc5a4c6609a0ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Props/Materials/LocomotionCoffeeTable1Mat.mat using Guid(33f1ed22388d3164cbc5a4c6609a0ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3783d2698c9b32552de47bb9de107b59') in 0.546540542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Props/Materials/LocomotionBookshelfMat.mat
-  artifactKey: Guid(5f4a5641860fb944c9a68800514f0c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Props/Materials/LocomotionBookshelfMat.mat using Guid(5f4a5641860fb944c9a68800514f0c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c2da2f09f1d96e35f32e9ea65ee77bb') in 0.014136708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/VideoPlayerAnimBackground.mat
-  artifactKey: Guid(6c2e126a52c0ad64fbe6ea3ad784c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/VideoPlayerAnimBackground.mat using Guid(6c2e126a52c0ad64fbe6ea3ad784c5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8885000a725bc7b22b9b95c199b93d62') in 0.018414542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
-  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeab0d9b6b968acdb34c55c53d1fbbe3') in 6.417263084 seconds
+  Time since last request: 547091.607090 seconds.
+  path: Assets/FMETP_STREAM/FMNetwork/Scripts/Editor/FMNetworkManager_Editor.cs
+  artifactKey: Guid(300ae4836a1294a8683be3480ea018ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FMETP_STREAM/FMNetwork/Scripts/Editor/FMNetworkManager_Editor.cs using Guid(300ae4836a1294a8683be3480ea018ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df59e037c87b212beaf5c44232a81f08') in 0.069314041 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/IconAnchor.mat
-  artifactKey: Guid(fee06ce933b1d5a4aa7f40a94d09e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/IconAnchor.mat using Guid(fee06ce933b1d5a4aa7f40a94d09e642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a5fb292c803b3b397cb622980e31b3c') in 0.027600125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Environment/Materials/LocoColorRoomWindowMat.mat
-  artifactKey: Guid(f8415d6983b1f074bb5d2762cc37f1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Environment/Materials/LocoColorRoomWindowMat.mat using Guid(f8415d6983b1f074bb5d2762cc37f1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6125ea4067d141b94bae56a408ea2b71') in 0.073109583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Packages/com.meta.xr.mrutilitykit/Core/Materials/UnlitRed.mat
-  artifactKey: Guid(43729c7a8f06e4769ba11eac897f7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.mrutilitykit/Core/Materials/UnlitRed.mat using Guid(43729c7a8f06e4769ba11eac897f7c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3fa93787e940fbcb37adfa90d37d0c4') in 0.0574145 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/HotspotMaterial.mat
-  artifactKey: Guid(099a76900c67577498a4e81d119935d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/HotspotMaterial.mat using Guid(099a76900c67577498a4e81d119935d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa446098bff4c017f2c6d157de710d4a') in 0.047889459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/Unlit Material.mat
-  artifactKey: Guid(f0d16396e840d534aa085e8f2c700786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/Unlit Material.mat using Guid(f0d16396e840d534aa085e8f2c700786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '641a3a7f6d9a307c73dee845485d4ae7') in 0.006426667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Guitar/Materials/GuitarMat.fbx
-  artifactKey: Guid(103a9a65e5a204743be93c5e4212cf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Guitar/Materials/GuitarMat.fbx using Guid(103a9a65e5a204743be93c5e4212cf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e3e4ef139f5b5c802c633cbf103ac70') in 5.159657208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DebugUnlitMaterial.mat
-  artifactKey: Guid(32c9cae82fc27e4429ecd48a7c3ea496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DebugUnlitMaterial.mat using Guid(32c9cae82fc27e4429ecd48a7c3ea496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f02cc53d4482583153a159b3ec47b498') in 0.017161416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/IconBackground.mat
-  artifactKey: Guid(d926560f9f4cfa240ae27300a8c77531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/IconBackground.mat using Guid(d926560f9f4cfa240ae27300a8c77531) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ec7760e9c8756c00c8fc6697cefa33d') in 0.010601458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DotGridUnlit.mat
-  artifactKey: Guid(c8abc1d05afcf524eb9f7657ed06700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DotGridUnlit.mat using Guid(c8abc1d05afcf524eb9f7657ed06700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61774da0029f1863ef4fa21084f725c1') in 0.016676583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Packages/com.meta.xr.mrutilitykit/Core/Materials/InvisibleOccluder.mat
-  artifactKey: Guid(ccf589b723c074315bad425b4e7654cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.mrutilitykit/Core/Materials/InvisibleOccluder.mat using Guid(ccf589b723c074315bad425b4e7654cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5db60416f367d9cabaf2c9f29540264e') in 0.082775042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Packages/com.meta.xr.mrutilitykit/Core/Materials/Green.mat
-  artifactKey: Guid(fcbd87e5a707c4f41b3d71c6256c9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.mrutilitykit/Core/Materials/Green.mat using Guid(fcbd87e5a707c4f41b3d71c6256c9fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5be197da2a77a83dab310260a083fd3') in 0.009686167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Packages/com.meta.xr.sdk.core/Shaders/EnvironmentDepth/URP/Shadergraph/LitOccluded.shadergraph
-  artifactKey: Guid(c9921e49de6b27842a9ccad17ba13d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.core/Shaders/EnvironmentDepth/URP/Shadergraph/LitOccluded.shadergraph using Guid(c9921e49de6b27842a9ccad17ba13d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c6c8e4b54ae97563fd356c230654207') in 6.42892575 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 1.318387 seconds.
+  path: Assets/FMETP_STREAM/FMNetwork/Scripts/FMNetworkManager.cs
+  artifactKey: Guid(2f68ecff929c04b31832e383f4dfe4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FMETP_STREAM/FMNetwork/Scripts/FMNetworkManager.cs using Guid(2f68ecff929c04b31832e383f4dfe4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41be96240521eae1c4983f58674f3fd6') in 0.00417575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x346287000 may have been prematurely finalized
+Thread 0x332393000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.084 seconds
+- Loaded All Assemblies, in  1.152 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 6.11 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 5.96 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -426,685 +313,37 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.882 seconds
-Domain Reload Profiling: 1974ms
-	BeginReloadAssembly (304ms)
-		ExecutionOrderSort (2ms)
-		DisableScriptedObjects (40ms)
+- Finished resetting the current domain, in  0.946 seconds
+Domain Reload Profiling: 2104ms
+	BeginReloadAssembly (313ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (23ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (152ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (722ms)
-		LoadAssemblies (399ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (363ms)
-			TypeCache.Refresh (39ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (295ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (883ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (716ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (128ms)
-			ProcessInitializeOnLoadAttributes (433ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 6.67 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
-Unloading 54 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (12.2 MB). Loaded Objects now: 10086.
-Memory consumption went from 202.2 MB to 190.0 MB.
-Total: 28.027292 ms (FindLiveObjects: 1.628833 ms CreateObjectMapping: 0.911250 ms MarkObjects: 19.181375 ms  DeleteObjects: 6.305125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 300.599706 seconds.
-  path: Assets/Scripts/Util
-  artifactKey: Guid(05eca27b9430d4622b1e4a1b10214fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Util using Guid(05eca27b9430d4622b1e4a1b10214fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e40d32b7051a4dc6556ec2ea2da6ebd') in 0.050050084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 9.13 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 1.08 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9166 unused Assets / (11.4 MB). Loaded Objects now: 10075.
-Memory consumption went from 186.9 MB to 175.5 MB.
-Total: 51.341417 ms (FindLiveObjects: 6.671333 ms CreateObjectMapping: 0.835167 ms MarkObjects: 37.342625 ms  DeleteObjects: 6.490541 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x33cd53000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.435 seconds
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 29.83 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 7.42 ms, found 18 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.430 seconds
-Domain Reload Profiling: 2876ms
-	BeginReloadAssembly (441ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (159ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (913ms)
-		LoadAssemblies (664ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (408ms)
-			TypeCache.Refresh (78ms)
-				TypeCache.ScanAssembly (12ms)
-			BuildScriptInfoCaches (294ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1432ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1214ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (316ms)
-			ProcessInitializeOnLoadAttributes (634ms)
-			ProcessInitializeOnLoadMethodAttributes (236ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (5ms)
-		ExecutionOrderSort2 (1ms)
-		AwakeInstancesAfterBackupRestoration (38ms)
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 7.57 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.72 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (10.6 MB). Loaded Objects now: 10090.
-Memory consumption went from 195.9 MB to 185.3 MB.
-Total: 55.854208 ms (FindLiveObjects: 5.556833 ms CreateObjectMapping: 1.827500 ms MarkObjects: 35.804625 ms  DeleteObjects: 12.660416 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.144794 seconds.
-  path: Assets/Scripts/Util/CameraSphereDiagnostics.cs
-  artifactKey: Guid(d38d2f332fd6146e0b539f700a6fe735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Util/CameraSphereDiagnostics.cs using Guid(d38d2f332fd6146e0b539f700a6fe735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '041d0033623c742153e84f36faf5d08a') in 0.027086083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x33c82b000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.403 seconds
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 7.93 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 19.34 ms, found 18 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.079 seconds
-Domain Reload Profiling: 2489ms
-	BeginReloadAssembly (444ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (16ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (161ms)
+		CreateAndSetChildDomain (129ms)
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (891ms)
-		LoadAssemblies (664ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (351ms)
-			TypeCache.Refresh (59ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (261ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1080ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (882ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (173ms)
-			ProcessInitializeOnLoadAttributes (509ms)
-			ProcessInitializeOnLoadMethodAttributes (181ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 8.76 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.56 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (12.0 MB). Loaded Objects now: 10093.
-Memory consumption went from 196.0 MB to 184.0 MB.
-Total: 33.026417 ms (FindLiveObjects: 0.971542 ms CreateObjectMapping: 0.571542 ms MarkObjects: 24.179542 ms  DeleteObjects: 7.302417 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 105.652943 seconds.
-  path: Assets/Scripts/Util/CrashLogger.cs
-  artifactKey: Guid(003bdcca6e6654784b4872de1fe0527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Util/CrashLogger.cs using Guid(003bdcca6e6654784b4872de1fe0527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f595d149b01bbc0bc28b934a9ebff0a6') in 0.02902025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x3304cf000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.251 seconds
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 6.10 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 9.59 ms, found 18 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.032 seconds
-Domain Reload Profiling: 2286ms
-	BeginReloadAssembly (382ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (4ms)
-		CreateAndSetChildDomain (175ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (781ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (768ms)
 		LoadAssemblies (524ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (358ms)
-			TypeCache.Refresh (44ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (38ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (285ms)
-			ResolveRequiredComponents (19ms)
-	FinalizeReload (1032ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (946ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (835ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (481ms)
-			ProcessInitializeOnLoadMethodAttributes (158ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 7.70 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (12.1 MB). Loaded Objects now: 10096.
-Memory consumption went from 195.9 MB to 183.8 MB.
-Total: 59.141166 ms (FindLiveObjects: 2.223667 ms CreateObjectMapping: 1.699875 ms MarkObjects: 47.013792 ms  DeleteObjects: 8.203125 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x33029b000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.194 seconds
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 6.18 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 7.75 ms, found 18 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.947 seconds
-Domain Reload Profiling: 2148ms
-	BeginReloadAssembly (328ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (129ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (808ms)
-		LoadAssemblies (552ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (353ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (3ms)
-			BuildScriptInfoCaches (274ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (947ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (800ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (160ms)
-			ProcessInitializeOnLoadAttributes (501ms)
-			ProcessInitializeOnLoadMethodAttributes (126ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 6.20 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.46 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (13.6 MB). Loaded Objects now: 10099.
-Memory consumption went from 195.7 MB to 182.1 MB.
-Total: 15.094917 ms (FindLiveObjects: 0.628333 ms CreateObjectMapping: 0.532375 ms MarkObjects: 8.413667 ms  DeleteObjects: 5.520083 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x33029b000 may have been prematurely finalized
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.117 seconds
-Script 'CharacterController' has the same name as built-in Unity component.
-AddComponent and GetComponent will not work with this script.
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 7.38 ms, found 18 plugins.
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 10.92 ms, found 18 plugins.
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.974 seconds
-Domain Reload Profiling: 2100ms
-	BeginReloadAssembly (262ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (108ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (778ms)
-		LoadAssemblies (498ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (341ms)
-			TypeCache.Refresh (46ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (260ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (975ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (801ms)
+		SetupLoadedEditorAssemblies (774ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (161ms)
-			ProcessInitializeOnLoadAttributes (477ms)
-			ProcessInitializeOnLoadMethodAttributes (146ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
 			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
 WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
@@ -1149,28 +388,28 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 7.75 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.53 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (13.7 MB). Loaded Objects now: 10102.
-Memory consumption went from 195.9 MB to 182.2 MB.
-Total: 50.681875 ms (FindLiveObjects: 7.204208 ms CreateObjectMapping: 0.708417 ms MarkObjects: 35.042208 ms  DeleteObjects: 7.725792 ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 9.27 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9284 unused Assets / (5.9 MB). Loaded Objects now: 10050.
+Memory consumption went from 185.7 MB to 179.8 MB.
+Total: 38.751958 ms (FindLiveObjects: 6.404625 ms CreateObjectMapping: 1.024667 ms MarkObjects: 24.926500 ms  DeleteObjects: 6.395584 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x17d113000 may have been prematurely finalized
+Thread 0x31fed7000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.493 seconds
+- Loaded All Assemblies, in  1.482 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 24.08 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 6.58 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -1179,7 +418,7 @@ Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 7.94 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 11.90 ms, found 18 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -1187,39 +426,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.379 seconds
-Domain Reload Profiling: 2881ms
-	BeginReloadAssembly (528ms)
+- Finished resetting the current domain, in  0.973 seconds
+Domain Reload Profiling: 2461ms
+	BeginReloadAssembly (537ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (306ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (883ms)
-		LoadAssemblies (573ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (190ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (847ms)
+		LoadAssemblies (656ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (394ms)
-			TypeCache.Refresh (34ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (321ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1382ms)
+		AnalyzeDomain (356ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (279ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (973ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1080ms)
+		SetupLoadedEditorAssemblies (814ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (187ms)
-			ProcessInitializeOnLoadAttributes (560ms)
-			ProcessInitializeOnLoadMethodAttributes (312ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
 			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (2ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1262,220 +501,28 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 7.11 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.89 ms.
-Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9311 unused Assets / (12.5 MB). Loaded Objects now: 10105.
-Memory consumption went from 195.9 MB to 183.3 MB.
-Total: 39.747791 ms (FindLiveObjects: 3.188500 ms CreateObjectMapping: 2.288750 ms MarkObjects: 25.701375 ms  DeleteObjects: 8.567500 ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.28 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9284 unused Assets / (4.2 MB). Loaded Objects now: 10053.
+Memory consumption went from 185.5 MB to 181.3 MB.
+Total: 11.947000 ms (FindLiveObjects: 0.667667 ms CreateObjectMapping: 0.519041 ms MarkObjects: 8.200917 ms  DeleteObjects: 2.558875 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 545.773509 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/SmallRoom/Models/smallRoom.fbx
-  artifactKey: Guid(066a48c42e0fbb046b6c8d1591b8bcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/SmallRoom/Models/smallRoom.fbx using Guid(066a48c42e0fbb046b6c8d1591b8bcb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '127b667b2604d9a2ecd174c1d7bddb10') in 1.054868042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Torch/Materials/torchMaterial.mat
-  artifactKey: Guid(6485f550455d7cf4e8f106db5d5a3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Torch/Materials/torchMaterial.mat using Guid(6485f550455d7cf4e8f106db5d5a3057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aca63931edf1a207474c8dc52d8f9d98') in 0.057712584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Packages/com.meta.xr.mrutilitykit/Core/Materials/VertexFadedPassthrough.mat
-  artifactKey: Guid(db9126a78677d423d95284c7b1efa665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.mrutilitykit/Core/Materials/VertexFadedPassthrough.mat using Guid(db9126a78677d423d95284c7b1efa665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca86197c9228fb72d151b4777e82d427') in 0.066904833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Room/Materials/WindowStencilWriter.mat
-  artifactKey: Guid(7d9cecde2ae02774d8af3e98dce4e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Room/Materials/WindowStencilWriter.mat using Guid(7d9cecde2ae02774d8af3e98dce4e2db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcae0f31bdde7befdf1a4b3491bfac11') in 0.01341225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/TransparentStandard.mat
-  artifactKey: Guid(c2ace68b1ed79454a8d2febfb98c4a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/TransparentStandard.mat using Guid(c2ace68b1ed79454a8d2febfb98c4a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '116036ae8568c0051cf2eab0365dc5b5') in 0.0435415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Environment/Materials/WindowFrameMat.mat
-  artifactKey: Guid(54f8b13437ec45a47b6ff767e5573739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/NewColorRooms/Models/Environment/Materials/WindowFrameMat.mat using Guid(54f8b13437ec45a47b6ff767e5573739) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '968ad3435d7d59b3df921a11bdb5e61e') in 0.007761833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/UserInterface/Resources/Materials/TextureDiffused.mat
-  artifactKey: Guid(502ec803763e1e841b7b3f6075bd1da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.core/Scripts/ImmersiveDebugger/UserInterface/Resources/Materials/TextureDiffused.mat using Guid(502ec803763e1e841b7b3f6075bd1da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b871d731d659f72633e6506661a38b9a') in 0.013183875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/ToyBox/ToyBoxesMat.mat
-  artifactKey: Guid(5196470282bc7c34bb12d13caa9bccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/ToyBox/ToyBoxesMat.mat using Guid(5196470282bc7c34bb12d13caa9bccaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb7fe44c5d677695214e71a93aaccb34') in 0.020345083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
-  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e617b51ce583baad9288196eb2fbc1e') in 0.0303825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Volume.mat
-  artifactKey: Guid(0782a5e8bf9913b4abc8036e1ac4c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Volume.mat using Guid(0782a5e8bf9913b4abc8036e1ac4c3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a48c373c5b8cbefb90c08f63dfc2fe3f') in 0.010142666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/UIDepthOverwrite.mat
-  artifactKey: Guid(c7cda63c3ebb50847950fc3a925d784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/UIDepthOverwrite.mat using Guid(c7cda63c3ebb50847950fc3a925d784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e0d8bbaeead7e5d87e52cbd1d44391f') in 0.012330375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
-  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a2beb7f2cb155872c869f9d4680a2c') in 5.787137 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Scripts/HandGrabUse/Effects/WaterSpray/WaterSpray.mat
-  artifactKey: Guid(44092c54cacca1046ac25e52c878a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Scripts/HandGrabUse/Effects/WaterSpray/WaterSpray.mat using Guid(44092c54cacca1046ac25e52c878a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b40767ecdcbc50dcdfe071b8c727fb7') in 0.062914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/FMETP_STREAM/FMCore/Materials/testMat.mat
-  artifactKey: Guid(58311d3dfdfba4eb1af5e21d534d577f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FMETP_STREAM/FMCore/Materials/testMat.mat using Guid(58311d3dfdfba4eb1af5e21d534d577f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4304bde6fbe2b9acae8365cec03e5c4e') in 0.009576584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/UIDefaultOverlay.mat
-  artifactKey: Guid(bc9f80a2ae0e0a24d870176e48ab1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Materials/UIDefaultOverlay.mat using Guid(bc9f80a2ae0e0a24d870176e48ab1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86cfa15ba4d5bc4067bfe26eda5c8a34') in 0.014193458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/ThumbsUp.mat
-  artifactKey: Guid(a4c9f2c1fbaa2df4b96621830e060af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/ThumbsUp.mat using Guid(a4c9f2c1fbaa2df4b96621830e060af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d7c3364d7f63e11d8cca2bc36fb54d') in 0.033206334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/UIDepthWriter.mat
-  artifactKey: Guid(866df31c809e8b543923ab44ec395e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/UIDepthWriter.mat using Guid(866df31c809e8b543923ab44ec395e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41a3de7e5fa29b5c8cde6620b2b54a17') in 0.013690208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.153985 seconds.
-  path: Assets/SceneTemplateAssets/Common/Models/UnityMaterialBall.fbx
-  artifactKey: Guid(dbf213621aa684e458812b1232360659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SceneTemplateAssets/Common/Models/UnityMaterialBall.fbx using Guid(dbf213621aa684e458812b1232360659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6231208144932ec6b16b6efcca91f0e') in 0.238854584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 63
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.008192 seconds.
-  path: Assets/Resources/ImmersiveDebuggerSettings.asset
-  artifactKey: Guid(66798771d872d4e2da3ff45d66abddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ImmersiveDebuggerSettings.asset using Guid(66798771d872d4e2da3ff45d66abddf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '748fb7573b3976a309e1ec43eb0b339b') in 0.017575875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001026 seconds.
-  path: Assets/Resources/MetaXRAudioSettings.asset
-  artifactKey: Guid(a41a36f32a71040e098dc55d8015d6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MetaXRAudioSettings.asset using Guid(a41a36f32a71040e098dc55d8015d6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c5686b4c4626d5dacca5782700c3c79') in 0.001670083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Resources/OVRPlatformToolSettings.asset
-  artifactKey: Guid(e60227cc5ec89403a81c5c35660a2204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(e60227cc5ec89403a81c5c35660a2204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f11fd33d4175c9f6eb97c750d2f76568') in 0.002646917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Resources/MetaXRAcousticSettings.asset
-  artifactKey: Guid(8b46aed2524ec467eba6ccfb98d0670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MetaXRAcousticSettings.asset using Guid(8b46aed2524ec467eba6ccfb98d0670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94d3e5a2b0c4e2e331cdbeffb3c196b9') in 0.001604 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.127237 seconds.
-  path: Assets/Materials
-  artifactKey: Guid(b10ded60b01524d48972f15e094e8281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials using Guid(b10ded60b01524d48972f15e094e8281) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9136f1891a85049a26c59cc291ba6190') in 0.002063167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.537001 seconds.
-  path: Assets/Materials/Mat_360Video.mat
-  artifactKey: Guid(0e86661a553d04cad82563a2709c1593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Mat_360Video.mat using Guid(0e86661a553d04cad82563a2709c1593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21d17d4da44d151f9e2262bd5623fe96') in 0.096057375 seconds
-Number of updated asset objects reloaded before import = 49Number of asset objects unloaded after import = 1
-
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x17d113000 may have been prematurely finalized
+Thread 0x16d5c3000 may have been prematurely finalized
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.375 seconds
+- Loaded All Assemblies, in  1.014 seconds
 Script 'CharacterController' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 5.91 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 6.81 ms, found 18 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -1484,7 +531,7 @@ Native extension for OSXStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 9.64 ms, found 18 plugins.
+Refreshing native plugins compatible for Editor in 8.86 ms, found 18 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -1492,39 +539,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.010 seconds
-Domain Reload Profiling: 2393ms
-	BeginReloadAssembly (437ms)
+- Finished resetting the current domain, in  0.979 seconds
+Domain Reload Profiling: 2001ms
+	BeginReloadAssembly (257ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (35ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (167ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (819ms)
-		LoadAssemblies (570ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (116ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (696ms)
+		LoadAssemblies (445ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (37ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (25ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (319ms)
-			ResolveRequiredComponents (22ms)
-	FinalizeReload (1010ms)
+			BuildScriptInfoCaches (249ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (979ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (818ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			SetLoadedEditorAssemblies (12ms)
 			BeforeProcessingInitializeOnLoad (150ms)
-			ProcessInitializeOnLoadAttributes (474ms)
-			ProcessInitializeOnLoadMethodAttributes (171ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (5ms)
-		ExecutionOrderSort2 (1ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -1567,13 +614,13 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 8.98 ms, found 18 plugins.
-Preloading 1 native plugins for Editor in 0.60 ms.
-Unloading 53 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 9310 unused Assets / (11.2 MB). Loaded Objects now: 10133.
-Memory consumption went from 197.1 MB to 185.9 MB.
-Total: 35.126541 ms (FindLiveObjects: 0.818041 ms CreateObjectMapping: 0.660875 ms MarkObjects: 28.518459 ms  DeleteObjects: 5.128458 ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.46 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.83 ms.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9284 unused Assets / (3.6 MB). Loaded Objects now: 10056.
+Memory consumption went from 185.6 MB to 182.0 MB.
+Total: 56.991416 ms (FindLiveObjects: 1.433917 ms CreateObjectMapping: 0.774959 ms MarkObjects: 48.143583 ms  DeleteObjects: 6.638000 ms)
 
 Prepare: number of updated asset objects reloaded= 0

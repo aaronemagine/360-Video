@@ -76,6 +76,7 @@
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/SceneManager_helper.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Networking/NetworkAction/NetworkActionDemo.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Tools/FMCoreTools.cs" />
+    <Compile Include="Assets/Scripts/Video/AVProNetworkPlayer.cs" />
     <Compile Include="Assets/Scripts/Util/CameraSphereDiagnostics.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/LargeFileDecoder.cs" />
     <Compile Include="Assets/Scripts/Util/CrashLogger.cs" />
@@ -103,6 +104,7 @@
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/FMServer.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/AudioDecoder.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Networking/NetworkDiscovery.cs" />
+    <Compile Include="Assets/Scripts/Net/FMETPCommandBridge.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/Demo/FMNetwork_Demo.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_Packet/Packet.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
