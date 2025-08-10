@@ -66,6 +66,7 @@
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/WebcamManager.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/FMNetworkFunction.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOException.cs" />
+    <Compile Include="Assets/Scripts/Net/PresenceHeartbeat.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/FMPCStreamDecoder.cs" />
     <Compile Include="Assets/Scripts/Util/AndroidMulticastLock.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/FMDataStream.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/WebSocket/FMWebSocket.cs" />
     <Compile Include="Assets/Scripts/Net/FMETPNetworkClient.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/EnergySaving/FPSManager.cs" />
+    <Compile Include="Assets/Scripts/Net/FMETPSendRelay.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/FMClient.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_Event/SocketIOEvent.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/DemoObjectAnimation.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/GyroController.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/FMServer.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/AudioDecoder.cs" />
+    <Compile Include="Assets/Scripts/Net/MockFMETPTransport.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Networking/NetworkDiscovery.cs" />
     <Compile Include="Assets/Scripts/Net/FMETPCommandBridge.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/Demo/FMNetwork_Demo.cs" />
@@ -127,9 +130,11 @@
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/Interactive/TouchVisualization.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Features/TargetProjectionMatrix.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Networking/NetworkAction/NetworkActions_Debug.cs" />
+    <Compile Include="Assets/Scripts/Util/DebugOverlay.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_IO/SocketIOComponent.cs" />
     <Compile Include="Assets/Scripts/Protocol/Messages.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMWebSocket/Scripts/SocketIO/FM_IO/FMSocketIOManager.cs" />
+    <Compile Include="Assets/Scripts/Util/CrashFileLogger.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMCore/Scripts/Mapper/TouchEncoder.cs" />
     <Compile Include="Assets/Scripts/Net/INetworkClient.cs" />
     <Compile Include="Assets/FMETP_STREAM/FMNetwork/Scripts/FMNetworkManager.cs" />
